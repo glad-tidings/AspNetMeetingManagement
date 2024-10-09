@@ -1,0 +1,101 @@
+﻿body {
+    direction: rtl;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+.clear {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.maindv {
+    width: 960px;
+    margin: 10px auto;
+    border: 1px solid #9d9d9d;
+    box-shadow: 0 0 10px #888888;
+    border-radius: 10px;
+    background-color: #e2e2e2;
+}
+
+.header {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.header-img {
+    width: 960px;
+    height: auto;
+}
+
+.main {
+
+}
+
+.main-right {
+    padding: 5px;
+    width: 238px;
+    float: right;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #9d9d9d;
+    background-color: #ffffff;
+}
+
+.main-left {
+    padding: 5px;
+    width: 678px;
+    float: left;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #9d9d9d;
+    background-color: #ffffff;
+}
+
+.footer {
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+    background-color: #cbcbcb;
+    text-align: center;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h4 {
+    font-size: 13px;
+}
+
+.view-tbl {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 0;
+}
+
+.view-header {
+    color: #ffffff;
+    background-color: #8e8e8e;
+    line-height: 25px;
+}
+
+.view-td {
+    text-align: center;
+}
+
+.add-td {
+    text-align: left;
+    vertical-align: top;
+    padding: 5px;
+    width: 110px;
+}
+
+.add-td-2 {
+    padding: 5px 0;
+}
